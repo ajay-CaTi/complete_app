@@ -1,12 +1,12 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "echo \"# complete_app\" >> README.md\r git init\r git add README.md\r git commit -m \"first commit\"\r git branch -M main\r git remote add origin https://github.com/ajay-CaTi/complete_app.git\r git push -u origin main",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "",
-    "dev": ""
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
   },
   "author": "me",
   "license": "ISC"
